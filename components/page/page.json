@@ -1,0 +1,37 @@
+{
+  "collectionName": "page",
+  "info": {
+    "name": "page",
+    "icon": "pager",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "title_featured": {
+      "type": "string"
+    },
+    "resume": {
+      "type": "richtext"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "video_url": {
+      "type": "string"
+    }
+  }
+}

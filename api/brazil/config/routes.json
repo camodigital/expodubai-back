@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/brazil",
+      "handler": "brazil.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/brazil",
+      "handler": "brazil.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/brazil",
+      "handler": "brazil.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

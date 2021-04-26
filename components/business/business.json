@@ -1,0 +1,27 @@
+{
+  "collectionName": "business",
+  "info": {
+    "name": "business",
+    "icon": "business-time",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

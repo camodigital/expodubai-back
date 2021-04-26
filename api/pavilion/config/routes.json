@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pavilion",
+      "handler": "pavilion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pavilion",
+      "handler": "pavilion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pavilion",
+      "handler": "pavilion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

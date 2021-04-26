@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_history_history_infos",
+  "info": {
+    "name": "history_info",
+    "icon": "file-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

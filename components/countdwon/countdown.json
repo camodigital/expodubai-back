@@ -1,0 +1,14 @@
+{
+  "collectionName": "countdwon",
+  "info": {
+    "name": "countdown",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    }
+  }
+}

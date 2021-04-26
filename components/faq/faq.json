@@ -1,0 +1,17 @@
+{
+  "collectionName": "faq",
+  "info": {
+    "name": "faq",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

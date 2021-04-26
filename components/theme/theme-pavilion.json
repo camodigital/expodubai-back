@@ -1,0 +1,27 @@
+{
+  "collectionName": "theme_pavilion",
+  "info": {
+    "name": "theme_pavilion",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

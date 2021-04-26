@@ -1,0 +1,20 @@
+{
+  "collectionName": "participate",
+  "info": {
+    "name": "participate",
+    "icon": "check-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
