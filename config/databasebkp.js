@@ -10,13 +10,9 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME', 'expodubai'),
         username: env('DATABASE_USERNAME', 'expodubai'),
         password: env('DATABASE_PASSWORD', 'expodubai123'),
-        ssl: {
-          rejectUnauthorized: false
-        }
+        ssl: env.bool('DATABASE_SSL', false),
       },
-      options: {
-        ssl: true,
-      }
+      options: {}
     },
   },
 });
