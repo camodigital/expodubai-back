@@ -5,4 +5,16 @@
  * to customize this model
  */
 
-module.exports = {};
+ const axios = require("axios");
+ const vercelWebhook = strapi.config.get("custom.vercelWebhook");
+
+module.exports = {
+  lifecycles: {
+    async afterCreate(_, __) {
+      vercelWebhook && axios.post(vercelWebhook);
+    },
+    async afterUpdate(_, __, ___) {
+      vercelWebhook && axios.post(vercelWebhook);
+    },
+  },
+};
